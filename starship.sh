@@ -7,6 +7,4 @@ touch ~/.bashrc
 
 echo 'eval "$(starship init bash)"' >> ~/.bashrc
 
-mkdir -p ~/.config && touch ~/.config/
-
-cp starship.toml ~/.config/
+mkdir -p ~/.config && mv starship.toml ~/.config/
