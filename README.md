@@ -34,7 +34,7 @@ pkill mysql && pkill mariadb && mysqld
 
 - comando para ativar phpmyadmin:
 ```
-
+php -S localhost:9090 -t /data/data/com.termux/files/usr/share/phpmyadmin > /dev/null &
 ```
 
 ### Install laravel 
