@@ -6,7 +6,7 @@ apt install git && git clone https://github.com/MTplusWebSystem/TMX-ServerLAMP
 ```
 - Passo 2:
 ```bash
-cd TMX-ServerLAMP && chmod +777 install.sh && ./install 
+cd TMX-ServerLAMP && chmod +777 install.sh && chmod +777 starship.sh && ./starship.sh && ./install.sh
 ```
 
 - Passo 3:
