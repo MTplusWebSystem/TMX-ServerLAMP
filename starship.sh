@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 pkg install starship;
 pkg install getconf;
